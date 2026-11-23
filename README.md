@@ -20,12 +20,12 @@ sha256sum -c ArsenalInCradle-<版本>-aic0.29j2.zip.sha256
 
 ## 安装
 
-1. 确认游戏已安装 **BepInEx 5（x64）**；
-2. 解压后运行包内 `Install-ArsenalInCradle.bat`，或按包内 `README.txt` 手动把
-   `BepInEx/plugins/` 下的内容放进游戏目录；
-3. 启动游戏，标题画面/设置页能看到模组版本号即安装成功。
+1. 解压到任意独立目录（不要直接解压进游戏目录）；
+2. 运行包内 `launcher\AicLauncher.Gui.exe`，选择游戏目录与发布包，先看「安装计划」预览再执行；
+   管理器会检查/安装 BepInEx 5.4.23.6（x64），安装前可一键备份存档；
+3. 启动游戏，设置页能看到模组版本号即安装成功。
 
-卸载用包内 `Uninstall-ArsenalInCradle.bat`。
+卸载同样在管理器里选择「卸载」并预览；建议先在游戏内「维护 → 卸载前清理」再卸载。
 
 ## 反馈问题
 
